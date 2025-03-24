@@ -9,5 +9,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base:"/decentralize_portfolio"
+  base:"/decentralize_portfolio1"
 })
