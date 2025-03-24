@@ -68,7 +68,7 @@ function Support({ currentAccount, contract }) {
             min="0.1"
             value={amount}
             onChange={(e) => setAmount(parseFloat(e.target.value))}
-            className='border-1 border-white-500/100 ... invalid:border-pink-500 invalid:text-pink-600 focus:border-green-700 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500 disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-500 disabled:shadow-none dark:disabled:border-gray-700 dark:disabled:bg-gray-800/20 ... w-md p-2 rounded-sm'
+            className='border-1 border-white-500/100 ... invalid:border-pink-500 invalid:text-pink-600 focus:border-green-700 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500 disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-500 disabled:shadow-none dark:disabled:border-gray-700 dark:disabled:bg-gray-800/20 ... w-xs md:w-sm p-2 rounded-sm'
           />
         </div>
 
